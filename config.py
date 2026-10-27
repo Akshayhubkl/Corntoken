@@ -97,8 +97,8 @@ USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot!"
 #  📝 License   : MIT License — Use, Modify & Share Freely
 # ──────────────────────────────────────────────────────────
 
-ADMINS.append(OWNER_ID)
-ADMINS.append(1234567890)
+ADMINS.append(@premiumxu)
+ADMINS.append(7040944963)
 
 LOG_FILE_NAME = "filebot.txt"
 
