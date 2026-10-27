@@ -18,26 +18,26 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "Add_Your_Token_Here")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7738551083:AAHrwV9eX1BBsbypJk67LuzNVJXiqBh43rQ")
 
 #Your API ID HASH from my.telegram.org 
-APP_ID = int(os.environ.get("APP_ID", "Add_Your_API_ID_Here"))
+APP_ID = int(os.environ.get("APP_ID", "20071888"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "Add_Your_API_HASH_Here")
+API_HASH = os.environ.get("API_HASH", "1c4cb9d94b23282abd9ae2a87a521b53")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "Add_Your_Channel_ID_Here"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002286080341"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "Add_Your_Owner_ID_Here"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7040944963"))
 
 #Port
-PORT = os.environ.get("PORT", "8585")
+PORT = os.environ.get("PORT", "8525")
 
 #Database 
-DB_URI = "mongodb://127.0.0.1:27017"
-DB_NAME = "filebot"
+DB_URI = "mongodb+srv://Jamun:Jamun8080@jamun.a1rau.mongodb.net/?retryWrites=true&w=majority"
+DB_NAME = "jamun"
 
 # ──────────────────────────────────────────────────────────
 #  📦 File Sharing Token Bot
