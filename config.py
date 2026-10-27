@@ -48,14 +48,14 @@ DB_NAME = "jamun"
 
 #Shortner (token system) 
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "You_ShortLink_Provider_URL")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "Add_Your_ShortLink_API_Here")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "https://linkshortify.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "e91105ac13c652500c6d606bf27b2e3e2fbff1d0")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("TUT_VID", "https://t.me/isyrae") # You can add here your tutorial video
+TUT_VID = os.environ.get("TUT_VID", "") # You can add here your tutorial video
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "Add_Your_ForceSub_Channel"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1003904375273"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -63,7 +63,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "").split()):
+    for x in (os.environ.get("ADMINS", "7040944963").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
